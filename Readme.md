@@ -6,9 +6,9 @@ Welcome to the Bharat Intern Web Development Repository! This repository contain
 
 **Description**: In Task 1, I created my personal portfolio website using HTML, CSS, and JavaScript. This portfolio showcases my skills, projects, and provides a glimpse into my web development journey.
 
-**Repository**: [Task 1 - Personal Portfolio](https://github.com/anubhavtripathi0509/BharatIntern/tree/main/Task1-Portfolio)
+**Repository**: [Task 1 - Personal Portfolio](https://github.com/Mohasindawal/BharatIntern/tree/main/Task1-Portfolio)
 
-**Live**: [Task 1 - Personal Portfolio](https://anubhavtripathi0509.github.io/portfolio/)
+**Live**: [Task 1 - Personal Portfolio](https://Mohasindawal.github.io/portfolio/)
 
 **Features**:
 - Interactive and responsive design.
@@ -18,11 +18,23 @@ Welcome to the Bharat Intern Web Development Repository! This repository contain
 - Smooth scrolling navigation.
 - Integration with GitHub for project updates.
 
-## Task 2: Netflix Clone
+## Task 2: Temperature Converter
 
-**Description**: Task 2 involved building a Netflix clone website from scratch using HTML and CSS. The goal was to replicate the visual aesthetics and functionality of the popular streaming platform.
+**Description**: Task 2 challenged me to create a temperature converter application using HTML, CSS, and JavaScript. This handy tool allows users to convert temperatures between Celsius and Fahrenheit.
 
-**Repository**: [Task 2 - Netflix Clone](https://github.com/anubhavtripathi0509/BharatIntern/tree/main/Task2-NetflixClone)
+**Repository**: [Task 2 - Temperature Converter](https://github.com/Mohasindawal/BharatIntern/tree/main/Task2-TemperatureConverter)
+
+**Features**:
+- User-friendly interface.
+- Conversion between Celsius and Fahrenheit.
+- Real-time conversion as users input values.
+- Clear and reset functionality.
+
+## Task 3: Netflix Clone
+
+**Description**: Task 3 involved building a Netflix clone website from scratch using HTML and CSS. The goal was to replicate the visual aesthetics and functionality of the popular streaming platform.
+
+**Repository**: [Task 3 - Netflix Clone](https://github.com/Mohasindawal/BharatIntern/tree/main/Task3-NetflixClone)
 
 **Features**:
 - Visual design mimicking Netflix.
@@ -31,23 +43,11 @@ Welcome to the Bharat Intern Web Development Repository! This repository contain
 - Navigation menu.
 - Movie detail page (placeholder data).
 
-## Task 3: Temperature Converter
-
-**Description**: Task 3 challenged me to create a temperature converter application using HTML, CSS, and JavaScript. This handy tool allows users to convert temperatures between Celsius and Fahrenheit.
-
-**Repository**: [Task 3 - Temperature Converter](https://github.com/anubhavtripathi0509/BharatIntern/tree/main/Task3-TemperatureConverter)
-
-**Features**:
-- User-friendly interface.
-- Conversion between Celsius and Fahrenheit.
-- Real-time conversion as users input values.
-- Clear and reset functionality.
-
 ## Getting Started
 
 1. Clone this repository to your local machine:
    ```shell
-   git clone https://github.com/anubhavtripathi0509/BharatIntern.git
+   git clone https://github.com/Mohasindawal/BharatIntern.git
    ```
 
 2. Navigate to the specific task directory you want to explore:
