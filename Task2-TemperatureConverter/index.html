@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <!-- <main>Temperature Converter</main> -->
+
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconcert" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <script src="script.js"></script>
+</head>
+
+<body background="temp.webp" style="background-repeat: no-repeat;">
+
+    <header>
+        <h2> Temperature Convertor </h2>
+    </header>
+
+    <div>
+        <label for="inputTemp"> Select input type: </label>
+        <select id="inputTemp" name="inputTemp">
+            <option value="">-Select an option-</option>
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+    </div>
+
+
+    <div>
+        <label for="outputTemp"> Select output type: </label>
+        <select id="outputTemp" name="outputTemp">
+            <option value="">-Select an option-</option>
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+    </div>
+
+    <label for="temperatureInput">Enter Temperature:</label>
+    <input type="number" id="temperatureInput" name="temperatureInput" placeholder="Enter temperature">
+
+    <p class="result"></p>
+
+
+    <div id="buttons">
+        <button class="convertButton">Convert</button>
+        <button class="resetButton">Reset</button>
+    </div>
+</body>
+
+</html>

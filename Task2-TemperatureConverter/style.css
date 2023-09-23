@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    font-family: "Roboto", sans-serif;
+    --color: rgb(85, 85, 85);
+    --color2: rgb(251, 249, 249);
+  
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: rgb(243, 239, 239);
+    font-size: 20px;
+    background-size: cover;
+    
+ ;
+  }
+
+  h2{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+
+  select {
+    margin: 50px 0 10px;
+    padding: 7px;
+    font-size: 15px;
+  }
+
+  .result {
+    margin: 10px 0 50px;
+    font-size: 26px;
+    color: rgb(243, 239, 239);
+    letter-spacing: 1px;
+    height: 1em;
+    font-weight: bold;
+  }
+  
+  input {
+    margin: 30px 0 10px;
+    padding: 7px;
+    font-size: 20px;
+  }
+
+
+  button {
+    width: 200px;
+    margin: 0 30px;
+    padding: 10px 30px;
+    background: none;
+    border: 2px solid var(--color);
+    border-radius: 5px;
+    color: var(--color2);
+    font-size: 25px;
+    transition: color 0.3s, box-shadow 0.3s;
+    box-shadow: 3px 3px 10px var(--color2);
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  button:hover {
+    color: var(--color);
+    box-shadow: 3px 3px 10px var(--color2);
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+
+  /* Animation class for buttons */
+.fade-in-out {
+  animation: fadeInOut 0.5s ease-in-out;
+}
+
+/* Keyframes for the animation */
+@keyframes fadeInOut {
+  0% { opacity: 0; } /* Start with full transparency (invisible) */
+  100% { opacity: 1; } /* End with full visibility */
+}
+
+  
+  
+  /*  Media queries */
+  @media screen and (max-width: 500px){
+    label{
+      font-size: 35px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    button {
+      display: flex;
+      margin-bottom: 20px;
+      justify-content: center;
+    }
+  }

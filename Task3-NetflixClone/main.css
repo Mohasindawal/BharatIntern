@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.container{
+    background-color: black;
+}
+.section1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./images/background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+.navbar{
+    max-width: 1490px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar img{
+   width: 190px;
+   height: 80px;
+}
+.form-select{
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    border: 1px solid var(white);
+    
+}
+.navbar .button{
+    text-align: center;
+    padding-top: 7px;
+    width: 80px;
+    border-radius: 7px;
+    color: white;
+    font-weight: lighter;
+    font-size: 17px;
+    height: 33px;
+    background-color: #E50914;
+}
+.button:hover{
+    background-color: #bb0e16;
+    transition-property: all;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    
+}
+.leftsidenav{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+.sectionPart{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 260px;
+}
+
+#buttonoye:hover{
+    background-color: #bb0e16;
+    transition-property: all;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    
+}
+.sectionPart h1{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+.sectionPart .emailwalarow .badabutton{
+    text-align: center;
+    padding-top: 5px;
+    width: 190px;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    height: 50px;
+    background-color: #E50914;
+}
+.emailwalarow{
+    display: flex;
+    justify-content: center;
+}
+#emailaddress{
+    color: white;
+    width: 380px;
+    margin-right: 8px;
+    padding-left: 13px;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.568);
+    border:1px solid rgb(100, 102, 105);
+}
+.para1{
+    font-size: 24px;
+    text-align: center;
+}
+.para2{
+    font-size: 24px;
+    text-align: center;
+}
+.arrow{
+    padding-top: 12px;
+}
+
+.sectionbreaker{
+    width: 100%;
+    height: 12px;
+    border: 1px solid black;
+    background-color: #2e2d2d;
+}
+.section2{
+    height: 680px;
+    max-width: 1490px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+.leftwaladiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 740px;
+    color: white;
+}
+.leftwaladiv1 h2{
+    margin-bottom: 8px;
+    font-size: 48px;
+}
+.leftwaladiv1 p{
+    font-size: 24px
+}
+
+.rightwaladiv2 img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.video1 video{
+    width: 705px;
+    height: 260px;
+}
+
+.video1{
+ position: relative;
+ bottom: 433px;
+ right: 34px;
+}
+
+
+.tvcropped{
+    position: relative;
+    bottom: 550px;
+    left: 480px;
+}
+
+.section3{
+    height: 680px;
+    max-width: 1490px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+.rightwaladiv3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 740px;
+    color: white;
+}
+.rightwaladiv3 h2{
+    margin-bottom: 8px;
+    font-size: 48px;
+}
+.rightwaladiv3 p{
+    font-size: 24px
+}
+
+.section4{
+    height: 680px;
+    max-width: 1490px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+.leftwaladiv4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 740px;
+    color: white;
+}
+.leftwaladiv4 h2{
+    margin-bottom: 8px;
+    font-size: 48px;
+}
+.leftwaladiv4 p{
+    font-size: 24px
+}
+.rightwaladiv4 img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.video4 video{
+    width: 550px;
+    height: 222px;
+}
+.video4{
+    position: relative;
+    bottom: 490px;
+    left: 40px;
+ }
+
+ .tvcropped2{
+    position: relative;
+    bottom: 641px;
+   left: 433px;
+}
+
+.section5{
+    height: 680px;
+    max-width: 1490px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+
+.rightwaladiv5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 740px;
+    color: white;
+}
+.rightwaladiv5 h2{
+    margin-bottom: 8px;
+    font-size: 48px;
+}
+.rightwaladiv5 p{
+    font-size: 24px
+}
+.leftwaladiv5{
+    position: relative;
+    top: 75px;
+}
+
+
+/*FAQ Section*/
+
+.FAQ{
+    width: 1300px;
+    margin: 0 auto;
+}
+.FAQ h1{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  details{
+    background-color: #303030;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  
+  summary {
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 6s ease-out;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after{
+    content: "\002B";
+  }
+  
+  details[open] summary {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: .5em;
+  }
+  
+  details[open] summary:after{
+    content: "\00D7";
+  }
+  
+  details[open] div{
+    padding: .5em 1em;
+  }
+
+  .FAQPart{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+
+.FAQPart .emailwalarow .badabutton{
+    text-align: center;
+    padding-top: 5px;
+    width: 190px;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    height: 50px;
+    background-color: #E50914;
+ 
+}
+
+
+.footer{
+    padding: 80px;
+    color: #aaa;
+    margin: 0 auto;
+    width: 1500px;
+    font-size: 0.9rem;
+    
+}
+
+
+.footer p {
+  margin-bottom: 1.5rem;
+  padding-left: 50px;
+}
+
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.8rem;
+  padding-left: 50px;
+}
+
+.footer li {
+    list-style: none;
+    text-decoration: underline;
+  line-height: 2.3;
+}
+
+h1 {
+  font-size: 3rem;
+}
+.netflix {
+  margin-top: 10px;
+}
+.footer p a{
+    color:#aaa;
+}
