@@ -8,7 +8,7 @@ Welcome to the Bharat Intern Web Development Repository! This repository contain
 
 **Repository**: [Task 1 - Personal Portfolio](https://github.com/Mohasindawal/BharatIntern/tree/main/Task1-Portfolio)
 
-**Live**: [Task 1 - Personal Portfolio](https://Mohasindawal.github.io/portfolio/)
+**Live**: [Task 1 - Personal Portfolio](https://mohasindawal.github.io/Portfolio/)
 
 **Features**:
 - Interactive and responsive design.
