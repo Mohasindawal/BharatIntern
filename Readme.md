@@ -43,19 +43,6 @@ Welcome to the Bharat Intern Web Development Repository! This repository contain
 - Navigation menu.
 - Movie detail page (placeholder data).
 
-## Getting Started
-
-1. Clone this repository to your local machine:
-   ```shell
-   git clone https://github.com/Mohasindawal/BharatIntern.git
-   ```
-
-2. Navigate to the specific task directory you want to explore:
-   ```shell
-   cd Task1-Portfolio/
-   ```
-
-3. Open the `index.html` file in your preferred web browser to view the project.
 
 ## Feedback and Contributions
 
