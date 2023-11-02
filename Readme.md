@@ -46,6 +46,6 @@ Welcome to the Bharat Intern Web Development Repository! This repository contain
 
 ## Feedback and Contributions
 
-I'm continually working on improving my web development skills, and your feedback is invaluable. If you have suggestions, ideas, or improvements for any of these tasks, please feel free to create issues or pull requests. Your contributions are highly appreciated!
+I'm continually working on improving my web development skills, and your feedback is invaluable. If you have suggestions, ideas, or improvements for any of these tasks, please feel free to create issues or pull requests.
 
 Thank you for visiting my Bharat Intern Web Development Repository. I hope you find these projects interesting and inspiring for your web development journey. 😊🌐🚀
