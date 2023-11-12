@@ -1,6 +1,6 @@
 # Bharat Intern Web Development Repository
 
-Welcome to the Bharat Intern Web Development Repository! This repository contains the code for three exciting web development tasks completed as part of the Bharat Intern program. Below, you'll find details about each task along with links to their respective directories and descriptions.
+Welcome to the Bharat Intern Web Development Repository! This repository contains the code for three exciting web development tasks completed as part of the Bharat Intern program. Below, you'll find details about each task along with links to their respective directories.
 
 ## Task 1: Personal Portfolio
 
